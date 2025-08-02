@@ -14,7 +14,7 @@ This procject was created by Igor Tyrajski for _fun_ and learning purposes and i
 
 ![Circuit diagram](https://github.com/IgorTyrajski/Arduino-Alarm-Clock/blob/main/schemat/SchematBudzika_prosty.png)
 
-All of the libraries used in this project were not made by me.
+All of the libraries used in this project were not made by me, they were only modified to suit my needs..
 
 # Legal notice
 
@@ -40,7 +40,7 @@ Użyte części i moduły:
 
 ![Circuit diagram](https://github.com/IgorTyrajski/Arduino-Alarm-Clock/blob/main/schemat/SchematBudzika_prosty.png)
 
-Wszystkie biblioteki użyte w tym projekcie nie zostały stworzone przeze mnie.
+Wszystkie biblioteki użyte w tym projekcie nie zostały stworzone przeze mnie, zostały jedynie zmodyfikowane pod moje potrzeby.
 
 # Oświadczenie prawne
 Ten projekt ma charakter niekomercyjny i edukacyjny. Został stworzony w celach nauki oraz realizacji własnych zainteresowań technicznych. Może wykorzystywać publicznie dostępne biblioteki, zasoby lub narzędzia typu open source, które pozostają własnością ich autorów i podlegają odpowiednim licencjom.
