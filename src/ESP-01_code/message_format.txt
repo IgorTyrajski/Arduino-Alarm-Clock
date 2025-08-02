@@ -1,0 +1,4 @@
+time:Niedz 0932
+description:pochmurno
+feels_like:21
+humidity:55

@@ -6,7 +6,7 @@
 #include "secrets.h"
 
 const long utcOffsetInSeconds = 2 * 3600;
-char daysOfTheWeek[7][12] = {"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"};
+char daysOfTheWeek[7][12] = {"Niedz", "Pon", "Wt", "Sr", "Czw", "Pt", "Sob"};
 
 WiFiUDP ntpUDP;
 NTPClient timeClient(ntpUDP, "pool.ntp.org", utcOffsetInSeconds);
@@ -15,7 +15,7 @@ String serverPath;
 
 String lastWeatherDescription = "Brak danych";
 float lastTemperature = 0.0;
-float lastFeelsLike = 0.0;
+int lastFeelsLike = 0.0;
 int lastHumidity = 0;
 
 
@@ -80,13 +80,13 @@ void loop() {
   int hours = timeClient.getHours();
   int minutes = timeClient.getMinutes();
 
-  char timeStr[6];
-  sprintf(timeStr, "%02d:%02d", hours, minutes);  // np. "14:07"
-
   Serial.print("time:");
   Serial.print(daysOfTheWeek[timeClient.getDay()]);
-  Serial.print(",");
-  Serial.println(timeStr);
+  Serial.print(" ");
+  if (hours < 10) Serial.print("0");
+  Serial.print(hours);
+  if (minutes < 10) Serial.print("0");
+  Serial.println(minutes);
 
   Serial.print("description:");
   Serial.println(lastWeatherDescription);
