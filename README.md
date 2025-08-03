@@ -9,6 +9,7 @@ This procject was created by Igor Tyrajski for _fun_ and learning purposes and i
 - I2C converter for the LCD display
 - ESP-01 wifi module
 - power supply module (with 9V battery)
+- active buzzer (not used at the moment)
 - 2 220Ω resistors
 - 8 330Ω resistors
 
@@ -35,6 +36,7 @@ Użyte części i moduły:
 - Konwerter I2C do wyświetlacza LCD
 - Moduł WiFi ESP-01
 - Moduł zasilania (z baterią 9V)
+- Aktywny brzęczyk (jak na razie nie wykorzystany)
 - 2 rezystory 220Ω
 - 8 rezystorów 330Ω
 
